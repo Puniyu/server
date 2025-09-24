@@ -2,8 +2,16 @@
 name = "puniyu_server"
 version = "0.1.0"
 edition = "2024"
+authors = ["wuliya <3369906077@qq.com>"]
+license = "LGPL-3.0-only"
+readme = "README.md"
+homepage = "https://github.com/Puniyu/server"
+repository = "https://github.com/Puniyu/server"
+rust-version = "1.88.0"
 
 [dependencies]
-actix-web = "4.11.0"
+actix-web = { version = "4.11.0" }
 tokio = { version = "1.47.1", features = ["full"] }
+futures-util = { version = "0.3.31" }
+
 puniyu_logger = { version= "0.5.6" }
